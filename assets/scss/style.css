@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+}
+
+body {
+  background-color: #f0f0e8;
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+.page-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  gap: 0.625rem;
+  padding: 0.625rem;
+}
+
+.page-content__left {
+  -webkit-box-flex: 25%;
+      -ms-flex: 25% 0 0px;
+          flex: 25% 0 0;
+  background-color: red;
+  max-width: 22.5rem;
+}
+
+.page-content__middle {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50% 0 0px;
+          flex: 50% 0 0;
+  background-color: green;
+  max-width: 42.5rem;
+}
+
+.page-content__right {
+  -webkit-box-flex: 25%;
+      -ms-flex: 25% 0 0px;
+          flex: 25% 0 0;
+  background-color: blue;
+  max-width: 22.5rem;
+}
+
+nav,
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.625rem;
+  padding: 0.625rem;
+  -webkit-box-shadow: 0 0.1875rem 0.5rem #0000000d;
+          box-shadow: 0 0.1875rem 0.5rem #0000000d;
+  background-color: white;
+}
+
+nav__left,
+.nav__left {
+  -webkit-box-flex: 25%;
+      -ms-flex: 25% 0 0px;
+          flex: 25% 0 0;
+  max-width: 22.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.625rem;
+}
+
+nav__middle,
+.nav__middle {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50% 0 0px;
+          flex: 50% 0 0;
+  max-width: 42.5rem;
+}
+
+nav__right,
+.nav__right {
+  -webkit-box-flex: 25%;
+      -ms-flex: 25% 0 0px;
+          flex: 25% 0 0;
+  max-width: 22.5rem;
+}
+
+.input-box__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.625rem;
+}
+
+.input-box__text label {
+  width: 100%;
+}
+
+.input-box__text input {
+  border: none;
+  height: 2.5rem;
+  border-radius: 1.25rem;
+  padding: 1.25rem;
+  background-color: #efefef;
+  width: inherit;
+  font-size: 0.9375rem;
+}
+
+.input-box__text input:focus {
+  outline: 0.01562rem dotted #1b75e5;
+}
+
+.facebook-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.625rem;
+  font-size: 1.8rem;
+  color: #656565;
+}
+
+.facebook-icons .active {
+  color: #1b75e5;
+}
+
+.facebook-services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.625rem;
+}
+
+.facebook-services .rounded-img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.facebook-services__service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.625rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #e4e4e4;
+  font-size: 1.375rem;
+}
+/*# sourceMappingURL=style.css.map */
