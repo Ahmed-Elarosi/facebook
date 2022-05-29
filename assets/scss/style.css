@@ -28,7 +28,6 @@ body {
   -webkit-box-flex: 25%;
       -ms-flex: 25% 0 0px;
           flex: 25% 0 0;
-  background-color: red;
   max-width: 22.5rem;
 }
 
@@ -185,5 +184,50 @@ nav__right,
   border-radius: 50%;
   background-color: #e4e4e4;
   font-size: 1.375rem;
+}
+
+.facebook-shortcuts__shortcut {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.3125rem;
+  font-size: 1rem;
+  font-weight: 520;
+  padding: 0.5rem 0;
+}
+
+.facebook-shortcuts__shortcut i {
+  color: #1b75e5;
+  font-size: 1.5rem;
+}
+
+.facebook-favorites__favorite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.3125rem;
+  font-size: 1rem;
+  font-weight: 520;
+  padding: 0.5rem 0;
+}
+
+.facebook-favorites__favorite .favorite-image {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
 }
 /*# sourceMappingURL=style.css.map */
