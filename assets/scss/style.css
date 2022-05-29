@@ -186,7 +186,7 @@ nav__right,
   font-size: 1.375rem;
 }
 
-.facebook-shortcuts__shortcut {
+.facebook-shortcuts__shortcut, .facebook-favorites__favorite {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -199,7 +199,7 @@ nav__right,
   gap: 0.3125rem;
   font-size: 1rem;
   font-weight: 520;
-  padding: 0.5rem 0;
+  padding: 0.625rem 0;
 }
 
 .facebook-shortcuts__shortcut i {
@@ -207,27 +207,17 @@ nav__right,
   font-size: 1.5rem;
 }
 
-.facebook-favorites__favorite {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 0.3125rem;
-  font-size: 1rem;
-  font-weight: 520;
-  padding: 0.5rem 0;
-}
-
-.facebook-favorites__favorite .favorite-image {
+.facebook-favorites__favorite .favorite-image img {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
-  position: relative;
-  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.line {
+  border-top: 0.0625rem solid #ccc;
+  padding: 0.625rem;
+  margin-top: 0.625rem;
 }
 /*# sourceMappingURL=style.css.map */
